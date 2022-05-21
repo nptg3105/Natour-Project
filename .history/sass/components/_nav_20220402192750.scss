@@ -1,0 +1,18 @@
+.nav {
+  width: 7rem;
+  height: 7rem;
+  background-color: $color-white;
+  border-radius: 50%;
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+
+  &__hamburger {
+    width: 100%;
+    top: 50%;
+    height: 2px;
+    background-color: $color-black;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

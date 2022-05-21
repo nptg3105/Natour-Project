@@ -1,0 +1,31 @@
+.testimonial-item {
+  &__card {
+    background-color: rgba($color-white, 0.5);
+    width: 75%;
+    box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
+    margin: 0 auto;
+    transform: skewX(-12deg);
+    padding: 3rem;
+    font-size: $default-fz;
+
+    & > * {
+      transform: skewX(12deg);
+    }
+  }
+
+  &__avatar {
+    float: left;
+    width: 15rem;
+    display: inline-block;
+    height: 15rem;
+    background-color: green;
+    -webkit-shape-ouiside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  &__desc {
+    width: 100%;
+  }
+}

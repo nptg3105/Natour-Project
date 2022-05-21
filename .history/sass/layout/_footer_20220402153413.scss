@@ -1,0 +1,16 @@
+.footer {
+  padding: 10rem 0;
+  background-color: $color-black;
+
+  &__logo {
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    color: $color-white;
+    font-size: $default-fz;
+    justify-content: space-between;
+  }
+}

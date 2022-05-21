@@ -1,0 +1,16 @@
+.feature-item {
+  background-color: rgba($color-white, 0.7);
+  text-align: center;
+  padding: 2.5rem;
+  font-size: 1.5rem;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+  border-radius: 3px;
+
+  &__icon {
+    font-size: 6rem;
+  }
+
+  &__title {
+    margin-bottom: 1.3rem;
+  }
+}

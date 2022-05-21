@@ -1,0 +1,16 @@
+.nav {
+  width: 7rem;
+  height: 7rem;
+  background-color: $color-white;
+  border-radius: 50%;
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+
+  &__hamburger {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+}

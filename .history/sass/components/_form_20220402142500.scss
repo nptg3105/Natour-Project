@@ -1,0 +1,14 @@
+.form {
+  &__group {
+  }
+
+  &__input {
+    padding: 1rem 3rem;
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__label {
+  }
+}

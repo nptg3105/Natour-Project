@@ -1,0 +1,30 @@
+.nav {
+  width: 7rem;
+  height: 7rem;
+  background-color: $color-white;
+  border-radius: 50%;
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+
+  &__hamburger {
+    width: 40%;
+    height: 2px;
+    background-color: $color-black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 2rem;
+      height: 2px;
+      background-color: $color-black;
+      top: 0;
+      left: 0;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.testimonial-item__card {
+  background-color: $color-white;
+  transform: skewX(-12deg);
+  display: flex;
+  padding: 3rem;
+
+  & > * {
+    transform: skewX(12deg);
+  }
+}

@@ -1,0 +1,58 @@
+.popup {
+  height: 100vh;
+  width: 100%;
+  background-color: $color-black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  &__content {
+    width: 80%;
+    height: 60%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+  }
+
+  &__close {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+  }
+
+  &__photo {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__image {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  &__text {
+    padding: 2rem;
+  }
+
+  &__heading {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    font-size: $default-fz;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  &__details {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+}

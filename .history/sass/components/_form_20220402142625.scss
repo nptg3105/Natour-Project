@@ -1,0 +1,23 @@
+.form {
+  font-family: inherit;
+  font-size: 1.5rem;
+  &__group {
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__input {
+    font-family: inherit;
+    font-size: 1.5rem;
+    display: block;
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__label {
+  }
+}

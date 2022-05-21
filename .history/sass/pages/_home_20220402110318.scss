@@ -1,0 +1,74 @@
+.about {
+  background-color: $color-grey-light;
+  padding: 25rem 0;
+  margin-top: -20vh;
+  &__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__text {
+    width: 50%;
+    max-width: 48%;
+  }
+
+  &__images {
+    width: 50%;
+  }
+}
+
+.section-feature {
+  padding: 25rem 0;
+
+  background-image: linear-gradient(
+      to right,
+      rgba($color-primary-light, 0.801),
+      rgba($color-primary-dark, 0.801)
+    ),
+    url(/img/nat-4.jpg);
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+  & > * {
+    transform: skewY(7deg);
+  }
+  .feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+}
+
+.section-tour {
+  margin-top: -10rem;
+  padding: 20rem 0;
+  background-color: $color-grey-light;
+
+  .tour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+  }
+}
+
+.section-testimonial {
+  padding: 15rem 0;
+  position: relative;
+}
+
+.section-booking {
+  padding: 15rem 0;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-light,
+    $color-primary-dark
+  );
+}
+.booking {
+  background-image: url(../img/nat-10.jpg);
+  background-size: cover;
+  height: 50rem;
+}
