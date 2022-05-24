@@ -62,14 +62,10 @@ body {
   }
 }
 
-@media (max-width: $md-min) {
+@media (min-width: $md-min) {
   .heading-primary {
     &--main {
       font-size: 5rem;
-    }
-
-    &--sub {
-      font-size: 1.6rem;
     }
   }
 }

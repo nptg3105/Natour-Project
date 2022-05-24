@@ -102,39 +102,10 @@
 }
 
 @media (max-width: $sm-min) {
-  .about {
-    padding-bottom: 45rem;
-    &__content {
-      flex-direction: column;
-    }
-
-    &__text {
-      width: 100%;
-      max-width: none;
-    }
-
-    &__images {
-      margin: 0 auto;
-    }
-  }
-
   .section-feature {
-    padding: 15rem 0;
     .feature {
-      flex-wrap: wrap;
-
       .feature-item {
-        width: 70%;
-      }
-    }
-  }
-
-  .section-tour {
-    .tour {
-      flex-direction: column;
-
-      .card {
-        width: 50%;
+        flex-wrap: wrap;
       }
     }
   }

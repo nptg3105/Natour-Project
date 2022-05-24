@@ -130,12 +130,6 @@
   }
 
   .section-tour {
-    .tour {
-      flex-direction: column;
-
-      .card {
-        width: 50%;
-      }
-    }
+    flex-direction: column;
   }
 }

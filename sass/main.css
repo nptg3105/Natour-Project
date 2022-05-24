@@ -239,6 +239,15 @@ body {
   margin-bottom: 3rem;
 }
 
+@media (max-width: 1200px) {
+  .heading-primary--main {
+    font-size: 5rem;
+  }
+  .heading-primary--sub {
+    font-size: 1.6rem;
+  }
+}
+
 .mb-80 {
   margin-bottom: 8rem;
 }
@@ -1219,9 +1228,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1276,5 +1282,58 @@ body {
 
 .booking__form .heading-secondary {
   text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .section-feature .feature .feature-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    padding-bottom: 45rem;
+  }
+  .about__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about__text {
+    width: 100%;
+    max-width: none;
+  }
+  .about__images {
+    margin: 0 auto;
+  }
+  .section-feature {
+    padding: 15rem 0;
+  }
+  .section-feature .feature {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-feature .feature .feature-item {
+    width: 70%;
+  }
+  .section-tour .tour {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-tour .tour .card {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
