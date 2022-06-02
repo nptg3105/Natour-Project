@@ -95,11 +95,6 @@
 
 @media (max-width: $xs-min) {
   .popup {
-    &__close {
-      color: $color-white;
-      font-size: 3rem;
-    }
-
     &__content {
       flex-direction: column;
     }

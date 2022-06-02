@@ -95,35 +95,20 @@
 
 @media (max-width: $xs-min) {
   .popup {
-    &__close {
-      color: $color-white;
-      font-size: 3rem;
-    }
-
     &__content {
       flex-direction: column;
     }
 
     &__photo {
       display: flex;
-      width: 100%;
+      // width: 100%;
+      // flex-wrap: wrap;
+      // justify-content: stretch;
     }
 
     &__image {
       width: 50%;
-      height: 204px;
-    }
-  }
-}
-
-@media (max-width: $xxs-min) {
-  .popup {
-    &__photo img:last-child {
-      display: none;
-    }
-
-    &__image {
-      width: 100%;
+      height: 100%;
     }
   }
 }

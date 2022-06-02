@@ -161,19 +161,13 @@
   }
 }
 
-@media (max-width: $xxs-min) {
+@media (max-width: $xs-min) {
   .section-booking {
     .booking {
       &__form {
-        padding: 4rem;
         .form {
-          &__radio {
+          &__ratio {
             flex-direction: column;
-          }
-
-          &__radio-label {
-            margin-right: 0;
-            margin-bottom: 2rem;
           }
         }
       }

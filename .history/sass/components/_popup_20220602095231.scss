@@ -95,11 +95,6 @@
 
 @media (max-width: $xs-min) {
   .popup {
-    &__close {
-      color: $color-white;
-      font-size: 3rem;
-    }
-
     &__content {
       flex-direction: column;
     }
@@ -120,10 +115,6 @@
   .popup {
     &__photo img:last-child {
       display: none;
-    }
-
-    &__image {
-      width: 100%;
     }
   }
 }

@@ -165,15 +165,9 @@
   .section-booking {
     .booking {
       &__form {
-        padding: 4rem;
         .form {
-          &__radio {
-            flex-direction: column;
-          }
-
-          &__radio-label {
-            margin-right: 0;
-            margin-bottom: 2rem;
+          &__ratio-label {
+            display: block;
           }
         }
       }

@@ -251,11 +251,8 @@ body {
 }
 
 @media (max-width: 576px) {
-  .heading-primary--main {
-    letter-spacing: 1.5rem;
-  }
-  .heading-primary--sub {
-    letter-spacing: 1rem;
+  .heading-primary--main, .heading-primary--sub {
+    letter-spacing: 0.5rem;
   }
 }
 
@@ -643,6 +640,12 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
+
 .testimonial-item:not(:last-child) {
   margin-bottom: 8rem;
 }
@@ -747,6 +750,18 @@ body {
   .testimonial-item__avatar {
     -webkit-transform: translateX(-1rem) skewX(0);
             transform: translateX(-1rem) skewX(0);
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonial-item__card {
+    padding-left: 0;
+    padding: 3rem;
+  }
+  .testimonial-item__avatar {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 2rem;
   }
 }
 
@@ -901,7 +916,6 @@ body {
 
 .popup__content {
   width: 80%;
-  height: 60%;
   background-color: #fff;
   position: absolute;
   top: 50%;
@@ -911,9 +925,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border-radius: 3px;
   overflow: hidden;
 }
@@ -935,7 +946,6 @@ body {
 
 .popup__photo {
   width: 60%;
-  height: 100%;
 }
 
 .popup__image {
@@ -975,6 +985,48 @@ body {
 
 .popup__close:checked + .popup__photo {
   display: none;
+}
+
+@media (max-width: 992px) {
+  .popup__details {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    -webkit-column-count: 1;
+            column-count: 1;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 768px) {
+  .popup__close {
+    color: #fff;
+    font-size: 3rem;
+  }
+  .popup__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .popup__photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .popup__image {
+    width: 50%;
+    height: 204px;
+  }
+}
+
+@media (max-width: 576px) {
+  .popup__photo img:last-child {
+    display: none;
+  }
+  .popup__image {
+    width: 100%;
+  }
 }
 
 .header {
@@ -1427,6 +1479,22 @@ body {
 @media (max-width: 768px) {
   .about {
     padding-bottom: 35rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-booking .booking__form {
+    padding: 4rem;
+  }
+  .section-booking .booking__form .form__radio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-booking .booking__form .form__radio-label {
+    margin-right: 0;
+    margin-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -167,13 +167,8 @@
       &__form {
         padding: 4rem;
         .form {
-          &__radio {
+          &__ratio {
             flex-direction: column;
-          }
-
-          &__radio-label {
-            margin-right: 0;
-            margin-bottom: 2rem;
           }
         }
       }
