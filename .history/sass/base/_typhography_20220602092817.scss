@@ -63,24 +63,6 @@ body {
 
 @media (max-width: $sm-min) {
   html {
-    font-size: 56.25%;
-  }
-}
-
-@media (max-width: $xs-min) {
-  html {
     font-size: 50%;
-  }
-}
-
-@media (max-width: $xxs-min) {
-  .heading-primary {
-    &--main {
-      letter-spacing: 1.5rem;
-    }
-
-    &--sub {
-      letter-spacing: 1rem;
-    }
   }
 }

@@ -8,6 +8,7 @@ body {
 
 .heading-primary {
   color: $color-white;
+  font-weight: 400;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
@@ -61,26 +62,26 @@ body {
   }
 }
 
-@media (max-width: $sm-min) {
-  html {
-    font-size: 56.25%;
+@media (max-width: $md-min) {
+  .heading-primary {
+    &--main {
+      font-size: 5rem;
+    }
+
+    &--sub {
+      font-size: 1.6rem;
+    }
   }
 }
 
 @media (max-width: $xs-min) {
-  html {
-    font-size: 50%;
-  }
-}
-
-@media (max-width: $xxs-min) {
   .heading-primary {
     &--main {
-      letter-spacing: 1.5rem;
+      font-size: 4rem;
     }
 
     &--sub {
-      letter-spacing: 1rem;
+      font-size: 1.6rem;
     }
   }
 }

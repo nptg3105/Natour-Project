@@ -69,15 +69,10 @@
   }
 }
 
-@media (max-width: $sm-min) {
+@media (max-width: $md-min) {
   .footer {
     &__content {
       flex-direction: column;
-    }
-
-    &__navigation,
-    &__copyright {
-      width: 100%;
     }
   }
 }

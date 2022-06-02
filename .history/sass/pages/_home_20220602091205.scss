@@ -139,17 +139,13 @@
     .booking {
       background-image: linear-gradient(
           105deg,
-          rgba($color-white, 0.75),
-          rgba($color-white, 0.75)
+          rgba($color-white, 0.75) 0%,
+          rgba($color-white, 0.75) 65%,
+          transparent 35%
         ),
         url(../img/nat-10.jpg);
-
       &__form {
         width: 100%;
-
-        .form__input {
-          width: 100%;
-        }
       }
     }
   }

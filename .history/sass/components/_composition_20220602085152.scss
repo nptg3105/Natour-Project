@@ -35,22 +35,4 @@
 }
 
 @media (max-width: $xs-min) {
-  .composition {
-    &__photo {
-      &--p1 {
-        left: -9rem;
-        top: 3rem;
-      }
-
-      &--p2 {
-        right: -9rem;
-        top: 3rem;
-      }
-
-      &--p3 {
-        left: 20%;
-        top: 5rem;
-      }
-    }
-  }
 }

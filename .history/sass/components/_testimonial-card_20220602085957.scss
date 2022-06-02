@@ -83,15 +83,7 @@
   .testimonial-item {
     &__card {
       width: 100%;
-      transform: unset;
-    }
-
-    &__comment {
-      transform: unset;
-    }
-
-    &__avatar {
-      transform: translateX(-1rem) skewX(0);
+      transform: skewX(-12deg);
     }
   }
 }

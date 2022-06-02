@@ -75,12 +75,9 @@ body {
 
 @media (max-width: $xxs-min) {
   .heading-primary {
-    &--main {
-      letter-spacing: 1.5rem;
-    }
-
+    &--main,
     &--sub {
-      letter-spacing: 1rem;
+      letter-spacing: 1.5rem;
     }
   }
 }

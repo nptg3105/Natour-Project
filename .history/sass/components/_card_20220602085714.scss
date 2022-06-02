@@ -187,8 +187,4 @@
   }
 }
 
-@media (max-width: $xs-min) {
-  .card {
-    width: 70%;
-  }
-}
+@media (max-width: $xs-min);

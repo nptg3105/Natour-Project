@@ -137,20 +137,7 @@
 
   .section-booking {
     .booking {
-      background-image: linear-gradient(
-          105deg,
-          rgba($color-white, 0.75),
-          rgba($color-white, 0.75)
-        ),
-        url(../img/nat-10.jpg);
-
-      &__form {
-        width: 100%;
-
-        .form__input {
-          width: 100%;
-        }
-      }
+      width: 100;
     }
   }
 }

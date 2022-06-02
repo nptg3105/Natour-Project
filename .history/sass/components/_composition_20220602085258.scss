@@ -38,18 +38,18 @@
   .composition {
     &__photo {
       &--p1 {
-        left: -9rem;
-        top: 3rem;
+        left: -1rem;
+        top: 1rem;
       }
 
       &--p2 {
-        right: -9rem;
-        top: 3rem;
+        right: 0;
+        top: 2rem;
       }
 
       &--p3 {
         left: 20%;
-        top: 5rem;
+        top: 10rem;
       }
     }
   }
