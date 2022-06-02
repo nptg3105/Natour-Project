@@ -17,7 +17,7 @@
 
   &__content {
     width: 80%;
-    height: 45rem;
+    height: 50rem;
     background-color: #fff;
     position: absolute;
     top: 50%;
@@ -85,9 +85,6 @@
 
 @media (max-width: $sm-min) {
   .popup {
-    &__content {
-      height: auto;
-    }
     &__details {
       font-size: 1.5rem;
       margin-bottom: 4rem;

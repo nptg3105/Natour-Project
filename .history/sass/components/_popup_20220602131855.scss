@@ -85,9 +85,6 @@
 
 @media (max-width: $sm-min) {
   .popup {
-    &__content {
-      height: auto;
-    }
     &__details {
       font-size: 1.5rem;
       margin-bottom: 4rem;
